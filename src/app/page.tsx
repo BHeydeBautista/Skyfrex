@@ -1,6 +1,7 @@
 import Hero from "../components/Hero";
 import About from "../components/About";
 import Steps from "../components/Steps";
+import TradingObjectives from "../components/TradingObjectives";
 
 
 export default function HomePage() {
@@ -9,6 +10,7 @@ export default function HomePage() {
       <Hero />
       <About />
       <Steps />
+      <TradingObjectives />
     </main>
   );
 }
